@@ -19,3 +19,7 @@ class ProdConfig(Config):
 
 class DevConfig(Config):
     DEBUG = True
+    # sqlalchemy
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///database.db'
+    SQLALCHEMY_ECHO = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
