@@ -20,6 +20,6 @@ app.config.from_object(DevConfig)
 def home():
     return '<h1>Hello World!</h1>'
 
-
-if __name__ == '__main__':
-    app.run()
+#
+# if __name__ == '__main__':
+#     app.run()
